@@ -1,0 +1,117 @@
+<!DOCTYPE html><!--Define the document type like html-->
+<!--Autor:Andres Pino-->
+<!--Name: "Let´s Talk About Space-->
+
+<!--This Starts The Html Document-->
+<html>
+	<!--This containts all characteristics that will apply to web page-->
+	<head>
+		<!--This places a title in the tab -->
+		<title> Let´s Talk About Solar System</title> 
+		<!--This Set ups the character standard -->
+		<meta charset="UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--This Set an icon to show it in the tab -->
+		<link rel="icon" href="../images/rocket4.ico" type="image/x-icon">
+		<!--This uses the configuring file .css to make changes in the html-->
+		<link rel="stylesheet" href="../en-CA/Style.css">
+		<script defer src="../en-CA/login.js"></script>		
+	</head>
+	
+<!--This starts the body of the html -->	
+	<body>
+				
+		<!--This create a division to place others elements-->
+		<div class="object-background">
+			<!--This configures the background image -->
+			<img class="img-background" src="../images/stars.svg" width="1500">
+		</div>
+		
+		<!-- This Division Contains The Title. The Rainbow Title Was Made Using The Free Services Of: https://www.html-code-generator.com/html/rainbow-text-generator.php -->
+		<!-- This Division Contains The Title. The Rainbow Title Was Made Using The Free Services Of: https://www.html-code-generator.com/html/rainbow-text-generator.php -->
+	<div class="rainbow-text">
+		<table class="title;">
+			<tr>
+				<th>
+					<!-- It shows a images and NO needs to close the tag -->
+					<img class="robot-image" src="../images/robot.svg" alt="robot" >
+				</th>
+				<th style="width:1200px;">
+					<!--Header 1 -->
+					<h1>
+						<!--Span makes changes in the header 1 -->
+						
+							<span style="color:#ff3400">L</span><span style="color:#ff6900">e</span><span style="color:#ff9e00">t</span><span style="color:#ffd300">´</span><span style="color:#f6ff00">s</span> <span style="color:#8cff00">t</span><span style="color:#57ff00">a</span><span style="color:#23ff00">l</span><span style="color:#00ff11">k</span> <span style="color:#00ff7b">a</span><span style="color:#00ffaf">b</span><span style="color:#00ffe4">o</span><span style="color:#00e4ff">u</span><span style="color:#00afff">t</span><br> <span style="color:#0046ff">S</span><span style="color:#0011ff">o</span><span style="color:#2300ff">l</span><span style="color:#5700ff">a</span><span style="color:#8c00ff">r</span> <span style="color:#f600ff">S</span><span style="color:#ff00d3">y</span><span style="color:#ff009e">s</span><span style="color:#ff0069">t</span><span style="color:#ff0034">e</span><span style="color:#ff0000">m</span>	
+							
+					</h1>
+				</th>
+				<th style="width:100px;">
+				<a href="../en-CA/login.html"><img src="../images/english.svg" style="width:60%;"></a>
+				<br><br>
+				<a href="../fr-CA/authentification.html"><img src="../images/francais.svg" style="width:60%;"></a>
+				</th>
+			</tr>
+		</table>
+	</div>
+		<!--Other division for content:table -->
+		<div id="menu">
+			<!--Unordered list -->
+			<h2>
+				<ul class="menu">
+					<!--Elements of the list -->
+					<li>
+						<a href="../en-CA/main.html">Home</a>
+					</li>			
+					<li>
+						<a href="../en-CA/solarsystem.html">Solar System</a>
+					</li>
+					<li>
+						<a href="../en-CA/planets.html">Planets</a>
+					</li>
+					<li>
+						<a href="../en-CA/moons.html">Moons</a>
+					</li>
+					<li>
+						<a href="../en-CA/login.html">Login</a>
+					</li>
+				</ul>
+			</h2>
+		</div>
+		<!--Other division for content:table -->
+		<div>
+			<table class="hometable" style="border:1px solid white;">
+				<tr>
+					<th style="border-right:1px solid white;width:50%">
+						<h2>How to Login</h2>
+					</th>					
+					<th style="border-left:1px solid white;">
+						<h2>Login</h2>				
+					</th>				
+				</tr>
+				<tr >
+					<td style="text-align:center;border-right:1px solid white;">
+						<p>
+							Enter as username:<span>solar</span>
+							<br>
+							<br>
+							Enter as Password:<span>system</span>
+						</p>
+					</td>
+					<td style="text-align:center;border-left:1px solid white;">
+						<!--This form collects data that will analyse by JavaScript's code -->
+						<form id="form">
+							<label for="uname">Username</label><br>
+							<input type="text" id="uname" name="uname"><br><br>
+							<label for="pwd">Password</label><br>
+							<input type="password" id="pwd" name="pwd"><br><br>
+							<input class="button-menu" id="button-form" type="submit" value="Login" >
+						</form>
+					</td>
+				</tr>			
+			</table>
+			
+		</div>			
+	</body>
+</html>	
+

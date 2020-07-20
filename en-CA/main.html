@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--Define the document type like html-->
+<!--Autor: Andres Pino-->
+<!--Name: "Let´s Talk About Solar System-->
+
+<!--This Starts The Html Document-->
+<html>
+	<!--This contains all characteristics that will apply to web page-->
+	<head>
+		<!--This places a title in the tab -->
+		<title> Let´s Talk About Solar System</title> 
+		<!--This Set ups the character standard -->
+		<meta charset="UTF-8">
+		<!--This tells the browser that the width of the screen is considered the Full Width-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--This Set an icon to show it in the tab -->
+		<link rel="icon" href="../images/rocket4.ico" type="image/x-icon">
+		<!--This uses the configuring file .css to make changes in the html-->
+		<link rel="stylesheet" href="../en-CA/Style.css">				
+	</head>
+	
+<!--This starts the body of the html -->	
+<body>
+
+	<div class="object-background">
+		<!--This configures the video height and autoplay it. It make a loop to play the video endless times -->
+		<video height="1000" class="video" autoplay loop >
+			<!--This shows the video path and file kind and NO needs to close the tag-->
+			<source src="../videos/video1.webm" type="video/webm">
+			<!--This message will appear if the video can not be played -->
+			Your browser does not support the video tag, sorry :(			
+		</video>
+	</div>
+	
+	<!-- This Division Contains The Title. The Rainbow Title Was Made Using The Free Services Of: https://www.html-code-generator.com/html/rainbow-text-generator.php -->
+	<div class="rainbow-text">
+		<table class="title;">
+			<!--Table row -->
+			<tr>
+				<!--Table header -->
+				<th>
+					<!-- It shows a images and NO needs to close the tag -->
+					<img class="robot-image" src="../images/robot.svg" alt="robot" >
+				</th>
+				<th style="width:1200px;">
+					<!--Header 1 -->
+					<h1>
+						<!--Span makes changes in the header 1 -->
+						
+							<span style="color:#ff3400">L</span><span style="color:#ff6900">e</span><span style="color:#ff9e00">t</span><span style="color:#ffd300">´</span><span style="color:#f6ff00">s</span> <span style="color:#8cff00">t</span><span style="color:#57ff00">a</span><span style="color:#23ff00">l</span><span style="color:#00ff11">k</span> <span style="color:#00ff7b">a</span><span style="color:#00ffaf">b</span><span style="color:#00ffe4">o</span><span style="color:#00e4ff">u</span><span style="color:#00afff">t</span><br> <span style="color:#0046ff">S</span><span style="color:#0011ff">o</span><span style="color:#2300ff">l</span><span style="color:#5700ff">a</span><span style="color:#8c00ff">r</span> <span style="color:#f600ff">S</span><span style="color:#ff00d3">y</span><span style="color:#ff009e">s</span><span style="color:#ff0069">t</span><span style="color:#ff0034">e</span><span style="color:#ff0000">m</span>	
+							
+					</h1>
+				</th>
+				<th style="width:100px;">
+				<a href="../en-CA/main.html"><img src="../images/english.svg" style="width:60%;"></a>
+				<br><br>
+				<a href="../fr-CA/accueil.html"><img src="../images/francais.svg" style="width:60%;"></a>
+				</th>
+			</tr>
+		</table>
+	</div>
+	
+	<!--Other division for the menu bar -->
+	<div id="menu">
+			<!--Unordered list -->
+			<h2>
+				<ul class="menu">
+					<!--Elements of the list -->
+					<li>
+						<a href="../en-CA/main.html">Home</a>
+					</li>			
+					<li>
+						<a href="../en-CA/solarsystem.html">Solar System</a>
+					</li>
+					<li>
+						<a href="../en-CA/planets.html">Planets</a>
+					</li>
+					<li>
+						<a href="../en-CA/moons.html">Moons</a>
+					</li>
+					<li>
+						<a href="../en-CA/login.html">Login</a>					
+				</ul>
+			</h2>
+		</div>
+	<div>
+		<!--This makes a table -->
+		<table class="hometable">
+		<!-- Table row -->
+			<tr>
+				<!--Table header -->
+				<th class="important-text" colspan="3">
+					Welcome to this <span>adventure</span> in the space. You will find here information about:
+					<hr>	
+				</th>				
+			</tr>
+			<tr>
+				<!--Table data -->
+				<td>-------></td>
+				<td class="important-text">
+					<!--Unordered list -->
+					<uo>
+						<li> Marvelous <span >planets</span> (of the solar system).</li>
+						<!--Break -->
+						<br>
+						<hr>
+						<li> Some information of the <span> moons</span> (satellites).</li>
+						<br>
+						<hr>
+						<li> Amazing <span> photos and video</span> of the celestial bodies.</li>
+						<br>
+						<hr>
+						<li> What is new in our <span>solar system</span>.</li>
+						<br>
+						<hr>
+					</uo>
+				</td>
+				<td><-------</td>
+			</tr>		
+		</table>
+	</div>	
+	<div>
+	<hr>	
+	</div>	
+</body>
+</html>	
+
